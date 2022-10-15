@@ -16,7 +16,7 @@ function App() {
                     <div className="flex-row mb-2 mt-3">
                         <span className="text-5xl">
                             <span className="font-thin text-white">
-                                A. Teoman
+                                A. TEOMAN
                             </span>
                             <span className="font-bold text-yellow"> UNAY</span>
                         </span>
