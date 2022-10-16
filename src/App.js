@@ -1,4 +1,5 @@
 import "./App.css";
+import logo from "./images/logo.png";
 import About from "./components/About";
 
 function App() {
