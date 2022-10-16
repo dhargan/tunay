@@ -48,7 +48,7 @@ const About = () => {
                     grand strategies.
                 </p>
                 <p className="mb-7">
-                    👨‍💻 🎸 I play guitar and love to listen 80’s rock/metal.
+                    🎸 I play guitar and love to listen 80’s rock/metal.
                 </p>
                 <p className="mt-14 text-4xl text-dark-purple ">
                     <a
