@@ -1,13 +1,13 @@
+import MenuItem from "./MenuItem";
+
 const Menu = (props) => {
     return (
         <div class="flex items-center justify-center text-center h-12 bg-gray">
             <div class="contents">
-                <div class="flex-1 text-dark-purple text-2xl font-bold">
-                    ABOUT
-                </div>
-                <div class="flex-1 text-dark-purple text-2xl">EDUCATION</div>
-                <div class="flex-1 text-dark-purple text-2xl">WORK</div>
-                <div class="flex-1 text-dark-purple text-2xl">HOBBIES</div>
+                <MenuItem label="ABOUT" isSelected={true} />
+                <MenuItem label="EDUCATION" />
+                <MenuItem label="WORK" />
+                <MenuItem label="HOBBIES" />
             </div>
         </div>
     );
