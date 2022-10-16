@@ -1,6 +1,7 @@
 import "./App.css";
 import logo from "./images/logo.png";
 import About from "./components/About";
+import Menu from "./components/Menu";
 
 function App() {
     return (
@@ -29,9 +30,7 @@ function App() {
                     </div>
                 </div>
             </div>
-            <div className="flex items-center justify-center text-center h-12 bg-gray">
-                menu
-            </div>
+            <Menu />
             <About />
         </>
     );
