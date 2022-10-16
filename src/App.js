@@ -1,11 +1,11 @@
 import "./App.css";
 import About from "./components/About";
-import Menu from "./components/Menu";
-import Header from "./components/Header";
-import { useSelector } from "react-redux";
 import Work from "./components/Work";
 import Education from "./components/Education";
 import Hobbies from "./components/Hobbies";
+import Menu from "./components/Menu";
+import Header from "./components/Header";
+import { useSelector } from "react-redux";
 
 function App() {
     const currentContent = useSelector((state) => state.navigation.value);

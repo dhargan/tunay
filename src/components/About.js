@@ -14,7 +14,7 @@ const instagramIcon = <FontAwesomeIcon icon={faInstagramSquare} />;
 const linkedInIcon = <FontAwesomeIcon icon={faLinkedin} />;
 const emailIcon = <FontAwesomeIcon icon={faEnvelopeSquare} />;
 
-const About = (props) => {
+const About = () => {
     return (
         <div className="flex flex-row pt-10 pl-7 border-t border-black">
             <div className="basis-2/7">
