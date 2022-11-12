@@ -5,6 +5,7 @@ import {
     faTwitterSquare,
     faInstagramSquare,
     faLinkedin,
+    faGithubSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 
@@ -13,10 +14,11 @@ const twitterIcon = <FontAwesomeIcon icon={faTwitterSquare} />;
 const instagramIcon = <FontAwesomeIcon icon={faInstagramSquare} />;
 const linkedInIcon = <FontAwesomeIcon icon={faLinkedin} />;
 const emailIcon = <FontAwesomeIcon icon={faEnvelopeSquare} />;
+const gitHubIcon = <FontAwesomeIcon icon={faGithubSquare} />;
 
 const About = () => {
     return (
-        <div className="flex flex-row pt-10 pl-7 border-t border-black">
+        <div className="xl:flex xl:flex-row pt-10 ml-5 xl:ml-0 mr-5 xl:mr-0 xl:pl-7 border-t border-black">
             <div className="basis-2/7">
                 <img
                     className="shadow rounded-3xl border-2 border-yellow shadow-black"
@@ -24,7 +26,7 @@ const About = () => {
                     alt="logo"
                 />
             </div>
-            <div className="basis-5/7 pl-20 text-3xl">
+            <div className="basis-5/7 xl:pl-20 text-lg xl:text-3xl pt-10 xl:pt-0">
                 <p className="mb-7">👋 Hello there! </p>
                 <p className="mb-7">
                     👨‍💻 I’m a Software Engineer from Adana / Turkey
@@ -53,7 +55,7 @@ const About = () => {
                 <p className="mt-14 text-4xl text-dark-purple ">
                     <a
                         href="https://www.facebook.com/teyobeyler/"
-                        className="mr-10"
+                        className="mr-6"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -61,7 +63,7 @@ const About = () => {
                     </a>
                     <a
                         href="https://twitter.com/teomanunay/"
-                        className="mr-10"
+                        className="mr-6"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -69,7 +71,7 @@ const About = () => {
                     </a>
                     <a
                         href="https://www.instagram.com/teyobeyler/"
-                        className="mr-10"
+                        className="mr-6"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -77,15 +79,23 @@ const About = () => {
                     </a>
                     <a
                         href="https://www.linkedin.com/in/a-teoman-unay-93684527/"
-                        className="mr-10"
+                        className="mr-6"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         {linkedInIcon}
                     </a>
                     <a
+                        href="https://github.com/dhargan/"
+                        className="mr-6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {gitHubIcon}
+                    </a>
+                    <a
                         href="mailto:teomanunay@gmail.com"
-                        className="mr-10"
+                        className="mr-6"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
