@@ -12,13 +12,13 @@ const Header = (props) => {
             </div>
             <div className="flex-col ml-4">
                 <div className="flex-row mb-2 mt-3">
-                    <span className="text-5xl">
+                    <span className="text-lg sm:text-lg md:text-xl xl:text-3xl 2xl:text-3xl">
                         <span className="font-thin text-white">A. TEOMAN</span>
                         <span className="font-bold text-yellow"> UNAY</span>
                     </span>
                 </div>
                 <div className="flex-row">
-                    <span className="font-bold text-white text-4xl">
+                    <span className="font-bold text-white text-lg sm:text-lg md:text-2xl xl:text-4xl 2xl:text-4xl">
                         Software Engineer
                     </span>
                 </div>
