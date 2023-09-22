@@ -32,7 +32,7 @@ const About = () => {
                     👨‍💻 I’m a Software Engineer from Adana / Turkey
                 </p>
                 <p className="mb-7">
-                    💼 Currently working as a Backend Team Lead at{" "}
+                    💼 Currently working as a Software Architect at{" "}
                     <a
                         href="https://denebunu.com/"
                         target="_blank"
